@@ -4,8 +4,7 @@ import {Product} from "../../product";
 
 @Component({
   selector: 'app-product-edit-tags',
-  templateUrl: './product-edit-tags.component.html',
-  styleUrls: ['./product-edit-tags.component.css']
+  templateUrl: './product-edit-tags.component.html'
 })
 export class ProductEditTagsComponent implements OnInit {
   errorMessage: string;
